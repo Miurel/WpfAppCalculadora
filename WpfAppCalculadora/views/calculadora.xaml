@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfAppCalculadora.views.calculadora"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppCalculadora.views"
+        mc:Ignorable="d"
+        Title="calculadora" Height="540" Width="350
+        ">
+    <Grid Background="#FFFF00F8">
+        <TextBox x:Name="resTextBox" HorizontalAlignment="Left" Margin="12,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Height="45" FontSize="40" FlowDirection="LeftToRight" FontFamily="Digital-7 Mono" Background="#FFA4A4DB" Foreground="White" FontWeight="Normal" IsEnabled="False"/>
+        <Button x:Name="Button9" Content="9" HorizontalAlignment="Left" Margin="179,142,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button9_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button8" Content="8" HorizontalAlignment="Left" Margin="96,142,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button8_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button7" Content="7" HorizontalAlignment="Left" Margin="12,142,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button7_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button6" Content="6" HorizontalAlignment="Left" Margin="179,225,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button6_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button5" Content="5" HorizontalAlignment="Left" Margin="96,225,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button5_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button4" Content="4" HorizontalAlignment="Left" Margin="12,225,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button4_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button3" Content="3" HorizontalAlignment="Left" Margin="179,304,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button3_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button2" Content="2" HorizontalAlignment="Left" Margin="96,304,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button2_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button1" Content="1" HorizontalAlignment="Left" Margin="12,304,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Button1_Click" Background="#FF28FF00"/>
+        <Button x:Name="Button0" Content="0" HorizontalAlignment="Left" Margin="12,382,0,0" VerticalAlignment="Top" Height="56" Width="150" FontSize="30" Click="Button0_Click" Background="#FF28FF00"/>
+        <Button x:Name="Buttonpunto" Content="." HorizontalAlignment="Left" Margin="179,382,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Buttonpunto_Click" Background="#FF28FF00"/>
+        <Button x:Name="Buttonmenos" Content="-" HorizontalAlignment="Left" Margin="262,225,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Buttonmenos_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="Buttonmas" Content="+" HorizontalAlignment="Left" Margin="262,142,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Buttonmas_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="Buttonmultiplicacion" Content="*" HorizontalAlignment="Left" Margin="262,68,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Buttonmultiplicacion_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="Buttondivision" Content="/" HorizontalAlignment="Left" Margin="179,68,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="Buttondivision_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="Buttonigual" Content="=" HorizontalAlignment="Left" Margin="262,304,0,0" VerticalAlignment="Top" Height="134" Width="66" FontSize="30" Click="Buttonigual_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="ButtonC" Content="C" HorizontalAlignment="Left" Margin="96,68,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="ButtonC_Click" Background="#FFE6E6EE"/>
+        <Button x:Name="ButtonCE" Content="CE" HorizontalAlignment="Left" Margin="12,68,0,0" VerticalAlignment="Top" Height="56" Width="66" FontSize="30" Click="ButtonCE_Click" Background="#FFE6E6EE"/>
+        <Button Content="Otra version" HorizontalAlignment="Center" Margin="0,450,0,0" VerticalAlignment="Top" Width="194" Background="#FF3B1212" Foreground="White" FontSize="14" FontFamily="Century Gothic" Click="Button_Click" Height="36"/>
+
+    </Grid>
+</Window>
